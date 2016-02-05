@@ -7,10 +7,6 @@ recipes:
 - homebrew::install_formulas
 - homebrew::install_casks
 
-# apps
-- sprout-osx-apps::iterm2
-- sprout-osx-apps::shiftit
-
 # settings
 - sprout-osx-settings
 - sprout-osx-settings::dock_preferences
@@ -31,8 +27,10 @@ recipes:
 - sprout-postgresql
 
 # apps (editors)
-- sprout-osx-apps::textmate_preferences
 - sprout-jetbrains-editors::rubymine
+- sprout-jetbrains-editors::pycharm
+- sprout-jetbrains-editors::webstorm
+- sprout-jetbrains-editors::intellij
 
 node_attributes:
   sprout:
@@ -94,3 +92,29 @@ node_attributes:
       - virtualbox
       - xquartz
       - xscope
+	  - royal-tsx
+	  - spotify
+	  - canon-imagerunner-printer-driver-ufrii
+	  - cleanmymac
+	  - hipchat
+	  - slack
+	  - iterm2
+	  - istats-menus
+	  - tower
+	  - visual-studio-code
+	  - wireshark
+	  - vlc
+	  - vmware-fusion
+	  - vyprvpn
+	  - sourcetree
+	  - evernote
+	  - expandrive
+	  - macpaw-gimini
+	  - lastpass
+	  - snagit
+	  - camtasia
+	  - reflector
+	  - tower
+	  - viscosity
+	  - iterm2
+	  - owasp-zap
